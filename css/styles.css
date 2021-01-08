@@ -160,18 +160,20 @@ body {
 
 /*--button container--*/
 
-.buttons .button {
+.display-button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
   background-color: var(--secondry-background-color);
+  border: 0px;
+  border-radius: 4px;
 }
 
-.buttons .button:hover,
-.buttons .button:focus,
-.buttons .button:active {
+.display-button:hover,
+.display-button:focus,
+.display-button:active {
   background-color: var(--hover-text-color);
   color: var(--light-text-color);
   cursor: pointer;
