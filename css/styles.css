@@ -52,14 +52,16 @@ body {
 }
 
 .header .link:hover,
-.header .link:focus {
+.header .link:focus,
+.header .link:active {
   color: var(--hover-text-color);
   cursor: pointer;
 }
 
-.header .link:active {
-  color: var(--primary-background-color);
+.site-nav-items .link.current {
+  color: var(--hover-text-color);
 }
+
 /*--/header--*/
 
 /*--main section--*/
