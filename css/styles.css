@@ -52,10 +52,13 @@ body {
 }
 
 .header .link:hover,
-.header .link:focus,
-.header .link:active {
+.header .link:focus {
   color: var(--hover-text-color);
   cursor: pointer;
+}
+
+.header .link:active {
+  color: var(--primary-background-color);
 }
 /*--/header--*/
 
