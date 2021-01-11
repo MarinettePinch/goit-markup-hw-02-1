@@ -42,11 +42,11 @@ body {
   font-style: normal;
 }
 
-.header .site-nav a {
+.header .site-nav .link {
   color: var(--primary-text-color);
 }
 
-.header .address a {
+.header .address .link {
   color: var(--grey-text-color);
   font-style: normal;
 }
@@ -90,14 +90,14 @@ body {
 /*--/main section--*/
 /*--competences section--*/
 
-.competences h3 {
+.competences .title {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
 }
 
-.competences p {
+.competences .text {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -157,7 +157,7 @@ body {
   font-style: normal;
 }
 
-.footer .address a {
+.footer .address .link {
   color: var(--light-footer-text-color);
 }
 /*--/footer--*/
@@ -187,7 +187,7 @@ body {
 /*--/button container--*/
 /*--projects container--*/
 
-.projects a {
+.projects .link {
   color: var(--primary-text-color);
 }
 
@@ -196,14 +196,14 @@ body {
   margin-inline: 0;
 }
 
-.projects figcaption > h3 {
+.projects figcaption > .title {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 
-.projects figcaption > p {
+.projects figcaption > .caption {
   margin: 0;
   padding: 0;
   font-weight: normal;
